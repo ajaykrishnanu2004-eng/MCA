@@ -1,0 +1,123 @@
+
+<html>
+	<head>
+    		<title>Registration Form</title>
+    		<style>
+        	body {
+            		background-color: white;
+            		font-family: Arial, sans-serif;
+             	     }
+         	h2 {
+         	   text-align: center;
+            	   color: yellow;
+                  text-shadow: 1px 1px 2px black;
+           	   }
+        	table {
+            		border:0;
+            		width: 50%;
+            		margin: auto;
+            		background-color: #555;
+            		color: lightgray;
+            		border: 2px solid black;
+              	      }
+        	td, th {
+               	border: 1px solid black;
+               	padding: 8px;
+               	}
+        
+       	 input[type="text"], input[type="password"], input[type="email"] {
+       	     width: 95%;
+       	     padding: 5px;
+       	 }
+       	 select {
+       		     width: 100%;
+       		     padding: 5px;
+       	        }    
+       	 .center {
+       		     text-align: center;
+       	         } 
+    		</style>
+</head>
+<body>
+
+    <h2><b>WELCOME TO FRESHERS WORLD!!!</b></h2>
+
+    <form>
+        <table>
+            <tr>
+                <th colspan="2" class="center">REGISTRATION FORM</th>
+            </tr>
+
+            <tr>
+                <td>NAME</td>
+                <td><input type="text" name="name"></td>
+            </tr>
+
+            <tr>
+                <td>AGE</td>
+                <td>
+                    <select name="age">
+                        <option value="">select</option>
+                        <option>18</option>
+                        <option>19</option>
+                        <option>20</option>
+                        <option>21</option>
+                        <option>22</option>
+                        <option>23</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td>PASSWORD</td>
+                <td><input type="password" name="password"></td>
+            </tr>
+
+            <tr>
+                <td>RETYPE PASSWORD</td>
+                <td><input type="password" name="retype_password"></td>
+            </tr>
+
+            <tr>
+                <td>SELECT YOUR SECURITY QUESTIONS</td>
+                <td>
+                    <input type="checkbox" name="q1"> What's your pet's name?<br>
+                    <input type="checkbox" name="q2"> Who is your best friend?<br>
+                    <input type="checkbox" name="q3"> What's your favourite color?<br>
+                    <input type="checkbox" name="q4"> Who is your favourite teacher?<br>
+                </td>
+            </tr>
+
+            <tr>
+                <td>ANSWER OF SECURITY QUESTION</td>
+                <td><input type="text" name="security_answer"></td>
+            </tr>
+
+            <tr>
+                <td>EMAIL</td>
+                <td><input type="email" name="email"></td>
+            </tr>
+
+            <tr>
+                <td>LANGUAGE KNOWS</td>
+                <td>
+                    <input type="radio" name="lang" value="english"> English
+                    <input type="radio" name="lang" value="malayalam"> Malayalam
+                    <input type="radio" name="lang" value="hindi"> Hindi
+                </td>
+            </tr>
+
+            <tr>
+                <td>PHONE NUMBER</td>
+                <td>
+                    Home <input type="text" name="home_phone">
+                    Office <input type="text" name="office_phone">
+                </td>
+            </tr>
+        </table>
+    </form>
+
+</body>
+</html>
+	
+
